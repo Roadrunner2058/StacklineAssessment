@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+.App-logo {
+  height: 20px;
+  pointer-events: none;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.App-header {
+  background-color: #002369;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-body{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 95vh;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 20px 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.tag{
+  margin: 5px;
+  font-family: 'inherit', sans-serif;
+  font-size: 0.75em;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.column{
+  padding: 20px;
+}
+
+.col-left {
+  flex: 0 0 15%;
+}
+
+.col-right{
+  flex: 1;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.sales-table{
+  width: 100%;
+  text-align: right;
+}
+
+.sales-table th{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sales-table td{
+  padding-right: 20px;
+  font-family: 'Consolas', Courier, monospace;
+}
